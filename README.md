@@ -5,13 +5,12 @@
 ---
 
 # <div align="center"> Content of Weekly Exercises</div>
-
 -   [Week 01](#week-01)
 -   [Updating...](#updating)
 
 ---
 
-## Week 01 {#week-01}
+## Week 01
 
 ### UML diagrams for railway reservation system
 
