@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="java.io">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang.reflect">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.math">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.net">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.security">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util.regex">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util.zip">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.maven.wrapper">
+            <Stats>
+                <TotalClasses>13</TotalClasses>
+                <ConcreteClasses>12</ConcreteClasses>
+                <AbstractClasses>1</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>10</Ce>
+                <A>0.08</A>
+                <I>1</I>
+                <D>0.08</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="Downloader.java">
+                    org.apache.maven.wrapper.Downloader
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="BootstrapMainStarter.java">
+                    org.apache.maven.wrapper.BootstrapMainStarter
+                </Class>
+                <Class sourceFile="DefaultDownloader.java">
+                    org.apache.maven.wrapper.DefaultDownloader
+                </Class>
+                <Class sourceFile="DefaultDownloader.java">
+                    org.apache.maven.wrapper.DefaultDownloader$1
+                </Class>
+                <Class sourceFile="DefaultDownloader.java">
+                    org.apache.maven.wrapper.DefaultDownloader$SystemPropertiesProxyAuthenticator
+                </Class>
+                <Class sourceFile="Installer.java">
+                    org.apache.maven.wrapper.Installer
+                </Class>
+                <Class sourceFile="Logger.java">
+                    org.apache.maven.wrapper.Logger
+                </Class>
+                <Class sourceFile="MavenWrapperMain.java">
+                    org.apache.maven.wrapper.MavenWrapperMain
+                </Class>
+                <Class sourceFile="PathAssembler.java">
+                    org.apache.maven.wrapper.PathAssembler
+                </Class>
+                <Class sourceFile="PathAssembler.java">
+                    org.apache.maven.wrapper.PathAssembler$LocalDistribution
+                </Class>
+                <Class sourceFile="SystemPropertiesHandler.java">
+                    org.apache.maven.wrapper.SystemPropertiesHandler
+                </Class>
+                <Class sourceFile="WrapperConfiguration.java">
+                    org.apache.maven.wrapper.WrapperConfiguration
+                </Class>
+                <Class sourceFile="WrapperExecutor.java">
+                    org.apache.maven.wrapper.WrapperExecutor
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.lang.reflect</Package>
+                <Package>java.math</Package>
+                <Package>java.net</Package>
+                <Package>java.security</Package>
+                <Package>java.util</Package>
+                <Package>java.util.regex</Package>
+                <Package>java.util.zip</Package>
+                <Package>org.apache.maven.wrapper.cli</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="org.apache.maven.wrapper.cli">
+            <Stats>
+                <TotalClasses>24</TotalClasses>
+                <ConcreteClasses>18</ConcreteClasses>
+                <AbstractClasses>6</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>3</Ce>
+                <A>0.25</A>
+                <I>0.75</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="AbstractCommandLineConverter.java">
+                    org.apache.maven.wrapper.cli.AbstractCommandLineConverter
+                </Class>
+                <Class sourceFile="AbstractPropertiesCommandLineConverter.java">
+                    org.apache.maven.wrapper.cli.AbstractPropertiesCommandLineConverter
+                </Class>
+                <Class sourceFile="CommandLineConverter.java">
+                    org.apache.maven.wrapper.cli.CommandLineConverter
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$OptionAwareParserState
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$OptionParserState
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$ParserState
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="CommandLineArgumentException.java">
+                    org.apache.maven.wrapper.cli.CommandLineArgumentException
+                </Class>
+                <Class sourceFile="CommandLineOption.java">
+                    org.apache.maven.wrapper.cli.CommandLineOption
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$1
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$AfterFirstSubCommand
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$AfterOptions
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$BeforeFirstSubCommand
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$CaseInsensitiveStringComparator
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$KnownOptionParserState
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$MissingOptionArgState
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$OptionComparator
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$OptionString
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$OptionStringComparator
+                </Class>
+                <Class sourceFile="CommandLineParser.java">
+                    org.apache.maven.wrapper.cli.CommandLineParser$UnknownOptionParserState
+                </Class>
+                <Class sourceFile="ParsedCommandLine.java">
+                    org.apache.maven.wrapper.cli.ParsedCommandLine
+                </Class>
+                <Class sourceFile="ParsedCommandLineOption.java">
+                    org.apache.maven.wrapper.cli.ParsedCommandLineOption
+                </Class>
+                <Class sourceFile="ProjectPropertiesCommandLineConverter.java">
+                    org.apache.maven.wrapper.cli.ProjectPropertiesCommandLineConverter
+                </Class>
+                <Class sourceFile="SystemPropertiesCommandLineConverter.java">
+                    org.apache.maven.wrapper.cli.SystemPropertiesCommandLineConverter
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>org.apache.maven.wrapper</Package>
+            </UsedBy>
+        </Package>
+    </Packages>
+
+    <Cycles>
+    </Cycles>
+</JDepend>
